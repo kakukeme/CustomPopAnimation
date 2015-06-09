@@ -14,6 +14,18 @@
 		69828EE31B25884300C99DD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69828EE21B25884300C99DD8 /* Images.xcassets */; };
 		69828EE61B25884300C99DD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69828EE41B25884300C99DD8 /* LaunchScreen.xib */; };
 		69828EF21B25884300C99DD8 /* CustomPopAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69828EF11B25884300C99DD8 /* CustomPopAnimationTests.m */; };
+		69828EFD1B25888C00C99DD8 /* Nav.m in Sources */ = {isa = PBXBuildFile; fileRef = 69828EFC1B25888C00C99DD8 /* Nav.m */; };
+		69828F001B258D8B00C99DD8 /* NavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 69828EFF1B258D8B00C99DD8 /* NavigationInteractiveTransition.m */; };
+		69828F031B25912900C99DD8 /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 69828F021B25912900C99DD8 /* PopAnimation.m */; };
+		69828F061B25A71900C99DD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69828EDD1B25884300C99DD8 /* ViewController.m */; };
+		69828F071B25A71900C99DD8 /* Nav.m in Sources */ = {isa = PBXBuildFile; fileRef = 69828EFC1B25888C00C99DD8 /* Nav.m */; };
+		69828F081B25A71900C99DD8 /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 69828F021B25912900C99DD8 /* PopAnimation.m */; };
+		69828F091B25A71900C99DD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69828EDA1B25884300C99DD8 /* AppDelegate.m */; };
+		69828F0A1B25A71900C99DD8 /* NavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 69828EFF1B258D8B00C99DD8 /* NavigationInteractiveTransition.m */; };
+		69828F0B1B25A71900C99DD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69828ED71B25884300C99DD8 /* main.m */; };
+		69828F0E1B25A71900C99DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69828EDF1B25884300C99DD8 /* Main.storyboard */; };
+		69828F0F1B25A71900C99DD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69828EE41B25884300C99DD8 /* LaunchScreen.xib */; };
+		69828F101B25A71900C99DD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69828EE21B25884300C99DD8 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,14 @@
 		69828EEB1B25884300C99DD8 /* CustomPopAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomPopAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69828EF01B25884300C99DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69828EF11B25884300C99DD8 /* CustomPopAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPopAnimationTests.m; sourceTree = "<group>"; };
+		69828EFB1B25888C00C99DD8 /* Nav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nav.h; sourceTree = "<group>"; };
+		69828EFC1B25888C00C99DD8 /* Nav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nav.m; sourceTree = "<group>"; };
+		69828EFE1B258D8B00C99DD8 /* NavigationInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationInteractiveTransition.h; sourceTree = "<group>"; };
+		69828EFF1B258D8B00C99DD8 /* NavigationInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationInteractiveTransition.m; sourceTree = "<group>"; };
+		69828F011B25912900C99DD8 /* PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
+		69828F021B25912900C99DD8 /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
+		69828F141B25A71900C99DD8 /* CustomPopAnimation1 copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CustomPopAnimation1 copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69828F151B25A71A00C99DD8 /* CustomPopAnimation1 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CustomPopAnimation1 copy-Info.plist"; path = "/Users/fenghuo/Documents/my_FHT/2015_4/CustomPopAnimation/CustomPopAnimation1 copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +77,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		69828F0C1B25A71900C99DD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -66,6 +93,7 @@
 				69828ED41B25884300C99DD8 /* CustomPopAnimation */,
 				69828EEE1B25884300C99DD8 /* CustomPopAnimationTests */,
 				69828ED31B25884300C99DD8 /* Products */,
+				69828F151B25A71A00C99DD8 /* CustomPopAnimation1 copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +102,7 @@
 			children = (
 				69828ED21B25884300C99DD8 /* CustomPopAnimation.app */,
 				69828EEB1B25884300C99DD8 /* CustomPopAnimationTests.xctest */,
+				69828F141B25A71900C99DD8 /* CustomPopAnimation1 copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +115,12 @@
 				69828EDC1B25884300C99DD8 /* ViewController.h */,
 				69828EDD1B25884300C99DD8 /* ViewController.m */,
 				69828EDF1B25884300C99DD8 /* Main.storyboard */,
+				69828EFB1B25888C00C99DD8 /* Nav.h */,
+				69828EFC1B25888C00C99DD8 /* Nav.m */,
+				69828EFE1B258D8B00C99DD8 /* NavigationInteractiveTransition.h */,
+				69828EFF1B258D8B00C99DD8 /* NavigationInteractiveTransition.m */,
+				69828F011B25912900C99DD8 /* PopAnimation.h */,
+				69828F021B25912900C99DD8 /* PopAnimation.m */,
 				69828EE21B25884300C99DD8 /* Images.xcassets */,
 				69828EE41B25884300C99DD8 /* LaunchScreen.xib */,
 				69828ED51B25884300C99DD8 /* Supporting Files */,
@@ -122,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69828ED11B25884300C99DD8 /* CustomPopAnimation */ = {
+		69828ED11B25884300C99DD8 /* CustomPopAnimation1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69828EF51B25884300C99DD8 /* Build configuration list for PBXNativeTarget "CustomPopAnimation" */;
+			buildConfigurationList = 69828EF51B25884300C99DD8 /* Build configuration list for PBXNativeTarget "CustomPopAnimation1" */;
 			buildPhases = (
 				69828ECE1B25884300C99DD8 /* Sources */,
 				69828ECF1B25884300C99DD8 /* Frameworks */,
@@ -134,7 +169,7 @@
 			);
 			dependencies = (
 			);
-			name = CustomPopAnimation;
+			name = CustomPopAnimation1;
 			productName = CustomPopAnimation;
 			productReference = 69828ED21B25884300C99DD8 /* CustomPopAnimation.app */;
 			productType = "com.apple.product-type.application";
@@ -156,6 +191,23 @@
 			productName = CustomPopAnimationTests;
 			productReference = 69828EEB1B25884300C99DD8 /* CustomPopAnimationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69828F041B25A71900C99DD8 /* CustomPopAnimation2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69828F111B25A71900C99DD8 /* Build configuration list for PBXNativeTarget "CustomPopAnimation2" */;
+			buildPhases = (
+				69828F051B25A71900C99DD8 /* Sources */,
+				69828F0C1B25A71900C99DD8 /* Frameworks */,
+				69828F0D1B25A71900C99DD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomPopAnimation2;
+			productName = CustomPopAnimation;
+			productReference = 69828F141B25A71900C99DD8 /* CustomPopAnimation1 copy.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -188,7 +240,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69828ED11B25884300C99DD8 /* CustomPopAnimation */,
+				69828ED11B25884300C99DD8 /* CustomPopAnimation1 */,
+				69828F041B25A71900C99DD8 /* CustomPopAnimation2 */,
 				69828EEA1B25884300C99DD8 /* CustomPopAnimationTests */,
 			);
 		};
@@ -212,6 +265,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		69828F0D1B25A71900C99DD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69828F0E1B25A71900C99DD8 /* Main.storyboard in Resources */,
+				69828F0F1B25A71900C99DD8 /* LaunchScreen.xib in Resources */,
+				69828F101B25A71900C99DD8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -220,7 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				69828EDE1B25884300C99DD8 /* ViewController.m in Sources */,
+				69828EFD1B25888C00C99DD8 /* Nav.m in Sources */,
+				69828F031B25912900C99DD8 /* PopAnimation.m in Sources */,
 				69828EDB1B25884300C99DD8 /* AppDelegate.m in Sources */,
+				69828F001B258D8B00C99DD8 /* NavigationInteractiveTransition.m in Sources */,
 				69828ED81B25884300C99DD8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,12 +299,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		69828F051B25A71900C99DD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69828F061B25A71900C99DD8 /* ViewController.m in Sources */,
+				69828F071B25A71900C99DD8 /* Nav.m in Sources */,
+				69828F081B25A71900C99DD8 /* PopAnimation.m in Sources */,
+				69828F091B25A71900C99DD8 /* AppDelegate.m in Sources */,
+				69828F0A1B25A71900C99DD8 /* NavigationInteractiveTransition.m in Sources */,
+				69828F0B1B25A71900C99DD8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		69828EED1B25884300C99DD8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 69828ED11B25884300C99DD8 /* CustomPopAnimation */;
+			target = 69828ED11B25884300C99DD8 /* CustomPopAnimation1 */;
 			targetProxy = 69828EEC1B25884300C99DD8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -349,6 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomPopAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DUSE_方案一";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -359,6 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomPopAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DUSE_方案一";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -397,6 +478,28 @@
 			};
 			name = Release;
 		};
+		69828F121B25A71900C99DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CustomPopAnimation1 copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DUSE_方案二";
+				PRODUCT_NAME = "CustomPopAnimation1 copy";
+			};
+			name = Debug;
+		};
+		69828F131B25A71900C99DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CustomPopAnimation1 copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DUSE_方案二";
+				PRODUCT_NAME = "CustomPopAnimation1 copy";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -409,7 +512,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69828EF51B25884300C99DD8 /* Build configuration list for PBXNativeTarget "CustomPopAnimation" */ = {
+		69828EF51B25884300C99DD8 /* Build configuration list for PBXNativeTarget "CustomPopAnimation1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69828EF61B25884300C99DD8 /* Debug */,
@@ -424,6 +527,15 @@
 				69828EFA1B25884300C99DD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+		};
+		69828F111B25A71900C99DD8 /* Build configuration list for PBXNativeTarget "CustomPopAnimation2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69828F121B25A71900C99DD8 /* Debug */,
+				69828F131B25A71900C99DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
